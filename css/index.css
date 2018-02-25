@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    box-sizing: border-box;
+    grid-gap: 5px;
+    background-color: rgb(231, 234, 245);
+    /* color: rgb(8, 202, 83); */
+    margin: 0 auto;
+  }
+  
+  .box {
+    /* background-color: rgb(139, 141, 140); */
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 100%;
+    border: 2px solid rgb(139, 141, 140);
+    /* margin: auto; */
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  .box :hover{
+    border: 2px solid rgb(245, 39, 142);
+  }
