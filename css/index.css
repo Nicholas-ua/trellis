@@ -6,20 +6,29 @@ body {
   .wrapper {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     grid-gap: 5px;
     background-color: rgb(231, 234, 245);
     /* color: rgb(8, 202, 83); */
     margin: 0 auto;
   }
   
+  .wrapper1 {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 1.33%;
+    background-color: rgb(231, 234, 245);
+    margin: 5px auto;
+  }
+
   .box {
+    /* box-sizing: border-box; */
     /* background-color: rgb(139, 141, 140); */
     color: #fff;
-    border-radius: 5px;
-    padding: 5px;
+    /* border-radius: 5px; */
+    padding: 1px;
     font-size: 100%;
-    border: 2px solid rgb(139, 141, 140);
+    /* border: 2px solid rgb(139, 141, 140); */
     /* margin: auto; */
   }
 
