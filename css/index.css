@@ -2,40 +2,80 @@ body {
     margin: 0 auto;
     max-width: 900px;
   }
-  
+
+  header {
+    display: flex;
+    background-color: darkorange;
+    width: 100%;
+    height: 100px;
+}
+
+ header img {
+  border: none;
+}
+
+.phone {
+    float: none;
+    text-align: center;
+    margin: auto;
+}
+
+.pat {
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+.mat {
+    height: 100px;
+    float: right;
+    margin-right: 10px;
+}
+
   .wrapper {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    /* box-sizing: border-box; */
-    grid-gap: 5px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-gap: 0;
     background-color: rgb(231, 234, 245);
-    /* color: rgb(8, 202, 83); */
     margin: 0 auto;
   }
-  
+
   .wrapper1 {
     display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
-    grid-gap: 1.33%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0;
     background-color: rgb(231, 234, 245);
-    margin: 5px auto;
+    margin: 0 auto;
   }
 
   .box {
     /* box-sizing: border-box; */
     /* background-color: rgb(139, 141, 140); */
-    color: #fff;
-    /* border-radius: 5px; */
+    /* color: #fff; */
     padding: 1px;
-    font-size: 100%;
-    /* border: 2px solid rgb(139, 141, 140); */
+    /* font-size: 100%; */
+    /* border: 2px solid rgb(117, 145, 245); */
     /* margin: auto; */
-  }
+   }
 
   img {
-      max-width: 100%;
+      width: 100%;
+      border: 2px solid rgb(321, 234, 245);
   }
 
   .box :hover{
     border: 2px solid rgb(245, 39, 142);
   }
+
+  footer {
+    background-color: darkorange;
+    height: 100px;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 133px;
+    height: 100px;
+}
