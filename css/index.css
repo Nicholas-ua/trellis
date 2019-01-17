@@ -100,7 +100,7 @@ article {
 }
 
 #wallpaper {
-    background-image: url(../photos/wallpaper-01.jpeg);
+    /*background-image: url(../photos/wallpaper-01.jpeg);*/
     background-position: left top;
     background-repeat: repeat;
 }
@@ -111,8 +111,9 @@ li {
 
 .propose {
     margin-top: 10px;
-    border: 5px solid rgb(0, 158, 250);
+    border: 5px solid rgb(250, 133, 0);
     border-radius: 10px;
+    background-image: url(../photos/wallpaper-01.jpeg);
 }
 
 .go {
