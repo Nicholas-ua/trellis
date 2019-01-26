@@ -32,8 +32,8 @@
     </header>
 
     <article id="wallpaper">
-        <div class="propose wow fadeInLeft" data-wow-duration="2s"><h2><b>Підбір шпалер</b></h2></div>
-        <div class="propose wow zoomIn"><h2><b>Наклеювання шпалер різної складності та текстури:</b></h2>
+        <div class="propose wow fadeInLeft" data-wow-duration="2s" data-wow-iteration="10"><h2><b>Підбір шпалер</b></h2></div>
+        <div class="propose wow zoomIn" data-wow-iteration="10"><h2><b>Наклеювання шпалер різної складності та текстури:</b></h2>
             <ul>
                 <h3><li>паперові</li>
                 <li>вінілові</li>
@@ -44,10 +44,10 @@
                 <li>корок</li></h3>
             </ul>
         </div>
-        <div class="propose wow fadeInRight" data-wow-duration="2s"><h2><b>Наклеювання багет</b></h2></div>
-        <div class="propose wow zoomIn"><h2><b>Підвісна стеля</b></h2></div>
-        <div class="propose wow shake"><h2><b>Вкладання ламінату</b></h2></div>
-        <div class="propose wow zoomIn"><h2><b>Мінеральні штукатурки:</b></h2>
+        <div class="propose wow fadeInRight" data-wow-duration="2s"data-wow-iteration="10" ><h2><b>Наклеювання багет</b></h2></div>
+        <div class="propose wow zoomIn" data-wow-iteration="10"><h2><b>Підвісна стеля</b></h2></div>
+        <div class="propose wow shake" data-wow-iteration="10"><h2><b>Вкладання ламінату</b></h2></div>
+        <div class="propose wow zoomIn" data-wow-iteration="10"><h2><b>Мінеральні штукатурки:</b></h2>
             <ul>
                 <h3><li>"сахара"</li>
                 <li>"марсель"</li>
@@ -57,7 +57,7 @@
                 <li>"гротто"</li></h3>
             </ul>
         </div>
-        <div class="propose wow bounceOut"><h2><b>Електромонтажні роботи та сигналізація</b></h2></div>
+        <div class="propose wow bounceOut" data-wow-iteration="10"><h2><b>Електромонтажні роботи та сигналізація</b></h2></div>
         <div class="go"><h2 style="color:rgb(252, 15, 15)"><b>Можливий виїзд за межі Львова</b></h2></div>
     </article>
 
@@ -432,7 +432,7 @@
       </footer>
       <script src="js/wow.min.js"></script>
     <script>
-        new WOW(
+      wow = new WOW(
             {
                       boxClass:     'wow',      // default
                       animateClass: 'animated', // default
@@ -440,8 +440,8 @@
                       mobile:       true,       // default
                       live:         true        // default
                     }
-                       
-        ).init();
+      )  
+        wow.init();
     </script>
 </body>
 </html>
